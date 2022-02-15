@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E8328F77-F0E7-C689-715E-C55ED20DFD78}</ProjectGuid>
+    <ProjectGuid>{DA835F5A-96E8-3A3F-ED15-62B54CF79CAF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.ProBuilder</AssemblyName>
@@ -53,103 +53,103 @@
     <UnityVersion>2020.2.2f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\AppendElements.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\ProBuilderMeshFunction.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\ProBuilderSnapping.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\MeshUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Submesh.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\IntVec3.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Math.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Face.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\Triangulation.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\MeshValidation.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\ObjectPool.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Changelog.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\HandleConstraint2D.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\SemVer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\ColorPalette.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\SharedVertex.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\ElementSelection.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\WingedEdgeEnumerator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\MeshTransform.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\ColorUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\VertexEditing.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\BezierShape.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\RaycastHit.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\TransformUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\SimpleTuple.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\ShapeGenerator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\ProBuilderMeshSelection.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\MeshImporter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\PolyShape.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\UnwrapParameters.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\ArrayUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\SerializationUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\CombineMeshes.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\InternalMeshUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Log.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\EntityBehaviour.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\VertexPositioning.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\SelectionPicker.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\VectorMask.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\UV\UVEditing.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Shortcut.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\SelectPathFaces.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\SelectionPickerRendererStandard.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\SurfaceTopology.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\ProBuilderMesh.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\ColliderBehaviour.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Projection.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\ActionResult.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\CombineMeshes.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\UV\UvUnwrapping.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\SelectionPickerRenderer.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\PreferenceDictionary.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Transform2D.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\InternalMeshUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\TransformUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\IHasDefault.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\SelectionPickerSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\ObjectPool.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\SelectionModifierBehaviour.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\SelectionPickerRendererHDRP.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\ProBuilderMeshFunction.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\MeshHandle.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\SimpleTuple.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\ProBuilderSnapping.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\IntVec2.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\MaterialUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\WingedEdge.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Edge.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\BuiltinMaterials.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\MeshHandles.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\UV\UvUnwrapping.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\FaceRebuildData.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\EntityBehaviour.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Log.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\VertexPositioning.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\HandleOrientation.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\InternalUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\DeleteElements.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\SelectionPicker.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\IntVec2.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\MeshUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Changelog.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Triangle.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Submesh.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\HandleConstraint2D.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\UV\TextureStitching.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\SemVer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\ShapeGenerator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\VectorMask.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\IntVec3.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\ColorPalette.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\SharedVertex.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Normal.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\UV\UVEditing.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\ProBuilderMeshSelection.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Shortcut.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\Subdivision.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Entity.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\EdgeLookup.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\ElementSelection.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\MeshImporter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\WingedEdgeEnumerator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\AutoUnwrapSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\EdgeUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\BezierPoint.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Bounds2D.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\HandleUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\ExtrudeElements.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Math.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Face.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\MaterialUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Vertex.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\PolyShape.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Normals.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\UnwrapParameters.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\Triangulation.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\MeshTransform.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\ColorUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\WingedEdge.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\Bevel.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\ArrayUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\HandleUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Smoothing.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\BezierShape.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\ConnectElements.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\VertexEditing.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\VectorHash.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Edge.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\UV\AutoUvConversion.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\SelectPathFaces.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\MeshValidation.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\SelectionPickerRendererStandard.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\PreferenceKeys.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\RaycastHit.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\SurfaceTopology.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\ProGridsIgnoreSnap.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\ProBuilderMesh.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\SerializationUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\BuiltinMaterials.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Clipping.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\PivotPoint.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\ProBuilderEnum.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Spline.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\MeshHandles.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\MergeElements.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\IntVec4.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\TriggerBehaviour.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\SelectionPickerRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Transform2D.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\IHasDefault.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\SelectionPickerSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Triangle.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\UV\TextureStitching.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\EdgeUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\AutoUnwrapSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\BezierPoint.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Vertex.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\Normals.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\Bevel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\ConnectElements.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\VectorHash.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\UV\AutoUvConversion.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\PreferenceKeys.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\ProGridsIgnoreSnap.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\ProBuilderEnum.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\MergeElements.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\AppendElements.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\SelectionModifierBehaviour.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\SelectionPickerRendererHDRP.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Core\MeshHandle.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\DeleteElements.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\MeshOperations\Subdivision.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Library\PackageCache\com.unity.probuilder@4.4.0\Runtime\Unity.ProBuilder.asmdef" />
@@ -738,19 +738,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.ProBuilder.Poly2Tri.csproj">
-      <Project>{767543D3-EAF8-2E9D-80F6-0D64D3142016}</Project>
+      <Project>{98926E76-3D26-C8D3-7C19-5B70144A0802}</Project>
       <Name>Unity.ProBuilder.Poly2Tri</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProBuilder.KdTree.csproj">
-      <Project>{BDCFF763-0E5F-46B7-06AF-809780F4B569}</Project>
+      <Project>{5C70B63B-2A90-6951-DF7E-7F49C5A4874C}</Project>
       <Name>Unity.ProBuilder.KdTree</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{9CC05774-2661-AA3C-ADC6-F1CD20E6377E}</Project>
+      <Project>{3C453562-4D43-F1B7-0CAC-AB2B00B272A8}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{9D02B7A5-44CC-D669-A7FE-E91DC7FC9F8D}</Project>
+      <Project>{904CF852-CA99-4A35-239E-7DE1BDA684F4}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

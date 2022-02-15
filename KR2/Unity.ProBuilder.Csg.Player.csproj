@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2097A23F-FD77-7774-9E50-4A6E845A928D}</ProjectGuid>
+    <ProjectGuid>{22D5DD08-926E-2988-FD40-D22F14405BEE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.ProBuilder.Csg</AssemblyName>
@@ -53,15 +53,15 @@
     <UnityVersion>2020.2.2f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\External\CSG\Classes\Vertex.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\External\CSG\Classes\Model.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\External\CSG\CSG.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\External\CSG\Classes\Polygon.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\External\CSG\Classes\Plane.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\External\CSG\Classes\Node.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\External\CSG\CSG.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\External\CSG\Classes\VertexUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\External\CSG\Classes\VertexAttributes.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\External\CSG\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\External\CSG\Classes\Node.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\External\CSG\Classes\VertexUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\External\CSG\Classes\Vertex.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\External\CSG\Classes\Plane.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Library\PackageCache\com.unity.probuilder@4.4.0\External\CSG\Unity.ProBuilder.Csg.asmdef" />
@@ -611,7 +611,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{9D02B7A5-44CC-D669-A7FE-E91DC7FC9F8D}</Project>
+      <Project>{904CF852-CA99-4A35-239E-7DE1BDA684F4}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

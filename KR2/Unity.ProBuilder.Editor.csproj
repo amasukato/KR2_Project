@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4E2939B8-E56A-F417-4782-AB170D77B52D}</ProjectGuid>
+    <ProjectGuid>{5026EA80-A261-41D8-DB1B-CA398058FB5A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.ProBuilder.Editor</AssemblyName>
@@ -53,169 +53,169 @@
     <UnityVersion>2020.2.2f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\TextureRotateTool.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Editors\OpenUVEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\MergeFaces.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\BridgeEdges.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Editors\NewPolyShape.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Object\MirrorObjects.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\RepairActions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\ExtrudeFaces.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Export\ExportStlAscii.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EditorToolbar.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\UnwrapParametersEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\MenuAction.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\VertexManipulationToolSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\Version.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\BezierSplineEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Interaction\ToggleSelectBackFaces.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\VertexColorPalette.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Object\ConformObjectNormals.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ShapeEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EditorMeshUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\UVRenderOptions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ShortcutManager.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Editors\OpenVertexPositionEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\MeshAndElementSelection.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\DimensionsEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EditorEnum.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\TooltipEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Interaction\ToggleDragRectMode.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\ConnectVertices.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\PositionTool.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Selection\SelectFaceRing.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ToolbarGroup.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\MenuActionStyles.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EditorStyles.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Export\ExportAsset.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Selection\GrowSelection.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\Experimental.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ConfigurableWindow.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Object\ProBuilderize.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\IHasPreferences.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\MenuOption.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\BevelEdges.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\InsertEdgeLoop.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Object\FreezeTransform.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\UndoUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EditorToolbarMenuItems.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\VertexManipulationTool.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\VersionValidator.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\Extrude.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\DestroyListener.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Selection\SelectEdgeRing.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ProBuilderEditorShortcuts.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\PositionScaleTool.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Selection\SelectLoop.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\PreferencesUpdater.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\SelectionUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EditorUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\FlipFaceNormals.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ObjExporter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EditorMaterialUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\PreferencesInternal.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\MenuItems.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EditorToolbarMenuItems.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\TooltipContent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EditorHandleUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\SetPivotToSelection.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\PositionRotateTool.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\SmartConnect.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Editors\OpenShapeEditorMenuItem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\pb_ObjectArray.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Object\SetTrigger.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\CollapseVertices.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Interaction\ToggleHandlePivotPoint.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Object\FlipObjectNormals.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\LicenseEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Editors\OpenUVEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Object\MirrorObjects.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Export\ExportStlAscii.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\Version.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ShapeEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\MeshAndElementSelection.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\PositionTool.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EditorStyles.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\LightmapUVEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\TextureTool.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ProBuilderSettingsProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\OffsetElements.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\FlipFaceEdge.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ProBuilderMenuActionAttribute.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\UnityScenePostProcessor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EditorGUIUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\DetachFaces.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Object\ConformObjectNormals.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\TooltipEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\MenuActionStyles.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Selection\SelectMaterial.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ReflectionUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Selection\SelectEdgeLoop.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Selection\ShrinkSelection.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Editors\NewBezierShape.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\LightmapUVEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Selection\SelectEdgeRing.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\IconUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\ConnectEdges.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\LogEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Editors\OpenMaterialEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Interaction\ToggleDragSelectionMode.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\TooltipContent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ProBuilderEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\MaterialPalette.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Editors\OpenVertexColorEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Object\CenterPivot.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\SceneDragAndDropListener.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\PolyShapeEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ProGridsInterface.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\AutoUVEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\StripProBuilderScripts.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Object\TriangulateObject.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Object\GenerateUV2.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\MenuActionShortcutAttribute.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\TextureRotateTool.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\MergeFaces.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\ExtrudeFaces.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EditorToolbar.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\BezierSplineEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Interaction\ToggleSelectBackFaces.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\UVRenderOptions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Editors\OpenVertexPositionEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Selection\SelectFaceRing.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\InsertEdgeLoop.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\UndoUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\IconUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\Pref.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\BooleanEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\TextureScaleTool.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EditorHandleUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Interaction\ToggleHandleOrientation.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\SetPivotToSelection.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\SmartSubdivide.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ProBuilderEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\TextureTool.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\FileUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ProBuilderEditorShortcuts.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EntityUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\TextureMoveTool.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\PositionRotateTool.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ProBuilderSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Object\MergeObjects.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\MaterialPalette.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\FillHole.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Editors\OpenVertexColorEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Object\CenterPivot.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ProBuilderSettingsProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\TriangulateFaces.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\PreferenceDictionaryEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\Model.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\Lightmapping.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\SceneDragAndDropListener.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\SmartConnect.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\MaterialEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\PositionScaleTool.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\ExtrudeEdges.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\PolyShapeEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Export\ExportObj.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\MeshSelection.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\UVEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ProGridsInterface.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Editors\OpenShapeEditorMenuItem.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Selection\SelectLoop.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\PreferencesUpdater.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\AutoUVEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Selection\SelectHole.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\OffsetElements.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\FlipFaceEdge.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Editors\OpenShapeEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ProBuilderSnapSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\SubdivideFaces.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\pb_ObjectArray.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\SelectionUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EditorUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Selection\SelectRing.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EntityVisibility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\PositionMoveTool.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Object\SetTrigger.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Editors\OpenSmoothingEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ProBuilderMenuActionAttribute.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\FlipFaceNormals.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EditorHandleDrawing.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\PlyExporter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\CollapseVertices.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EntityEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Object\SubdivideObject.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\ConformFaceNormals.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\SubdivideEdges.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ObjExporter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Editors\OpenLightmapUVEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ProBuilderMeshEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Export\ExportPly.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\StripProBuilderScripts.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\UnityScenePostProcessor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EditorGUIUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Object\TriangulateObject.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\DeleteFaces.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EditorMaterialUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Object\SetCollider.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\SmoothGroupEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Interaction\ToggleHandlePivotPoint.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\SplitVertices.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Selection\SelectFaceLoop.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\IconImporter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Selection\SelectVertexColor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\BridgeEdges.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\MenuAction.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EditorMeshUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\DimensionsEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Export\ExportAsset.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Selection\GrowSelection.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\IHasPreferences.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\VersionValidator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\DestroyListener.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Interaction\ToggleDragSelectionMode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\SmartSubdivide.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\FileUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ProBuilderSnapSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EntityVisibility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Editors\OpenSmoothingEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ProBuilderMeshEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Export\ExportPly.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\DeleteFaces.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\DuplicateFaces.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Selection\SelectSmoothingGroup.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EditorToolbarLoader.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EditorSceneViewPicker.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ShortcutManager.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EditorEnum.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Interaction\ToggleDragRectMode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\ConnectVertices.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ToolbarGroup.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\Experimental.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Object\ProBuilderize.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\VertexManipulationTool.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ReflectionUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\LogEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Editors\OpenMaterialEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Interaction\ToggleHandleOrientation.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ProBuilderSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\FillHole.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\Lightmapping.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Export\ExportObj.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Selection\SelectHole.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Editors\OpenShapeEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Selection\SelectRing.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\PositionMoveTool.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EditorHandleDrawing.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\PlyExporter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EntityEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Object\SubdivideObject.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\SubdivideEdges.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\VertexPositionEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ScriptingSymbolManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\HierarchyListener.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Object\FlipObjectNormals.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\DuplicateFaces.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\LicenseEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Selection\SelectSmoothingGroup.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EditorGUILayout.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Object\GenerateUV2.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EditorToolbarLoader.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Selection\SelectFaceLoop.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Export\ExportStlBinary.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\HandleGUI.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\IconImporter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\PreferencesInternal.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\MenuActionShortcutAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Selection\SelectVertexColor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EditorSceneViewPicker.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EditorHandleDrawingScopes.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\MenuItems.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Export\Export.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Editors\NewPolyShape.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\VertexManipulationToolSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\ConfigurableWindow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\BevelEdges.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Object\FreezeTransform.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Editors\NewBezierShape.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EntityUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\TextureMoveTool.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\PreferenceDictionaryEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\MaterialEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\MeshSelection.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\SubdivideFaces.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\ConformFaceNormals.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Editors\OpenLightmapUVEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\SplitVertices.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Export\ExportStlBinary.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\EditorCore\EditorHandleDrawingScopes.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\WeldVertices.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\MenuActions\Geometry\DetachFaces.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Library\PackageCache\com.unity.probuilder@4.4.0\Editor\Unity.ProBuilder.Editor.asmdef" />
@@ -807,39 +807,39 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.ProBuilder.csproj">
-      <Project>{E8328F77-F0E7-C689-715E-C55ED20DFD78}</Project>
+      <Project>{DA835F5A-96E8-3A3F-ED15-62B54CF79CAF}</Project>
       <Name>Unity.ProBuilder</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProBuilder.AssetIdRemapUtility.csproj">
-      <Project>{420A0B62-2721-1365-475D-EA1A21B7549A}</Project>
+      <Project>{F7E6B7F8-2D94-618F-F5FD-DAE72F96E089}</Project>
       <Name>Unity.ProBuilder.AssetIdRemapUtility</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProBuilder.Stl.csproj">
-      <Project>{56376549-D509-A3CD-0E62-5372E9828374}</Project>
+      <Project>{31374FA3-23AC-7954-3D90-13B2E5FD259D}</Project>
       <Name>Unity.ProBuilder.Stl</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Settings.Editor.csproj">
-      <Project>{D46F7138-45AE-2E71-F5B6-C1887A96AFA8}</Project>
+      <Project>{ADE54FC5-2D19-6D05-75F6-59ACC2E77CD2}</Project>
       <Name>Unity.Settings.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProBuilder.Csg.csproj">
-      <Project>{7E769F7E-CA5C-F3C4-30DB-CE37FC68AD39}</Project>
+      <Project>{8C249BF1-F872-857E-DFB3-60928DE673C5}</Project>
       <Name>Unity.ProBuilder.Csg</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{9CC05774-2661-AA3C-ADC6-F1CD20E6377E}</Project>
+      <Project>{3C453562-4D43-F1B7-0CAC-AB2B00B272A8}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{9D02B7A5-44CC-D669-A7FE-E91DC7FC9F8D}</Project>
+      <Project>{904CF852-CA99-4A35-239E-7DE1BDA684F4}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{B0B8EDAB-25F4-22A5-0667-D62A9C25F7D1}</Project>
+      <Project>{9C0DE49B-CE1E-87B5-0D49-60A09B9F3051}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{CF0B9A55-721B-C1F6-7214-902FABE5DBD0}</Project>
+      <Project>{EA339A7D-C353-C636-B50A-C889A5403EBA}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

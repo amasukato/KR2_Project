@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F7A27E54-769F-1602-E828-5E04D82EF633}</ProjectGuid>
+    <ProjectGuid>{33E8D49E-639B-E149-1BC0-794469E3969D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Searcher.Editor</AssemblyName>
@@ -53,15 +53,15 @@
     <UnityVersion>2020.2.2f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.searcher@4.3.1\Editor\Searcher\SearcherItem.cs" />
-    <Compile Include="Library\PackageCache\com.unity.searcher@4.3.1\Editor\Searcher\SearcherAdapter.cs" />
     <Compile Include="Library\PackageCache\com.unity.searcher@4.3.1\Editor\Searcher\Searcher.cs" />
     <Compile Include="Library\PackageCache\com.unity.searcher@4.3.1\Editor\Searcher\SearcherWindow.cs" />
-    <Compile Include="Library\PackageCache\com.unity.searcher@4.3.1\Editor\Searcher\SearcherDatabaseBase.cs" />
-    <Compile Include="Library\PackageCache\com.unity.searcher@4.3.1\Editor\Searcher\SearcherDatabase.cs" />
     <Compile Include="Library\PackageCache\com.unity.searcher@4.3.1\Editor\Searcher\SearcherControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.searcher@4.3.1\Editor\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.searcher@4.3.1\Editor\Searcher\SearcherHighlighter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.searcher@4.3.1\Editor\Searcher\SearcherItem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.searcher@4.3.1\Editor\Searcher\SearcherAdapter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.searcher@4.3.1\Editor\Searcher\SearcherDatabaseBase.cs" />
+    <Compile Include="Library\PackageCache\com.unity.searcher@4.3.1\Editor\Searcher\SearcherDatabase.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Library\PackageCache\com.unity.searcher@4.3.1\Editor\Unity.Searcher.Editor.asmdef" />
@@ -656,19 +656,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{9CC05774-2661-AA3C-ADC6-F1CD20E6377E}</Project>
+      <Project>{3C453562-4D43-F1B7-0CAC-AB2B00B272A8}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{9D02B7A5-44CC-D669-A7FE-E91DC7FC9F8D}</Project>
+      <Project>{904CF852-CA99-4A35-239E-7DE1BDA684F4}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{B0B8EDAB-25F4-22A5-0667-D62A9C25F7D1}</Project>
+      <Project>{9C0DE49B-CE1E-87B5-0D49-60A09B9F3051}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{CF0B9A55-721B-C1F6-7214-902FABE5DBD0}</Project>
+      <Project>{EA339A7D-C353-C636-B50A-C889A5403EBA}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9CC05774-2661-AA3C-ADC6-F1CD20E6377E}</ProjectGuid>
+    <ProjectGuid>{3C453562-4D43-F1B7-0CAC-AB2B00B272A8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEditor.UI</AssemblyName>
@@ -53,41 +53,41 @@
     <UnityVersion>2020.2.2f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\RawImageEditor.cs" />
-    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\RectMask2DEditor.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\PropertyDrawers\DropdownOptionListDrawer.cs" />
-    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\ContentSizeFitterEditor.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\MenuOptions.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\PropertyDrawers\FontDataDrawer.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\EventSystem\Physics2DRaycasterEditor.cs" />
-    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\SelfControllerEditor.cs" />
-    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\MaskEditor.cs" />
-    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\PropertyDrawers\ColorBlockDrawer.cs" />
-    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\InterceptedEventsPreview.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\InputFieldEditor.cs" />
-    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\Properties\AssemblyInfo.cs" />
-    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\LayoutPropertiesPreview.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\EventSystem\EventSystemEditor.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\CanvasScalerEditor.cs" />
-    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\SpriteDrawUtility.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\PrefabLayoutRebuilder.cs" />
-    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\GraphicEditor.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\SelectableEditor.cs" />
-    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\GridLayoutGroupEditor.cs" />
-    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\AspectRatioFitterEditor.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\ImageEditor.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\SliderEditor.cs" />
-    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\ScrollbarEditor.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\LayoutElementEditor.cs" />
-    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\ToggleEditor.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\DropdownEditor.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\ButtonEditor.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\EventSystem\PhysicsRaycasterEditor.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\TextEditor.cs" />
-    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\ScrollRectEditor.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\PropertyDrawers\AnimationTriggersDrawer.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\EventSystem\EventTriggerEditor.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\HorizontalOrVerticalLayoutGroupEditor.cs" />
+    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\RawImageEditor.cs" />
+    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\RectMask2DEditor.cs" />
+    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\ContentSizeFitterEditor.cs" />
+    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\SelfControllerEditor.cs" />
+    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\MaskEditor.cs" />
+    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\PropertyDrawers\ColorBlockDrawer.cs" />
+    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\InterceptedEventsPreview.cs" />
+    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\Properties\AssemblyInfo.cs" />
+    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\LayoutPropertiesPreview.cs" />
+    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\SpriteDrawUtility.cs" />
+    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\GraphicEditor.cs" />
+    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\GridLayoutGroupEditor.cs" />
+    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\AspectRatioFitterEditor.cs" />
+    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\ScrollbarEditor.cs" />
+    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\ToggleEditor.cs" />
+    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\ScrollRectEditor.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\PropertyDrawers\SpriteStateDrawer.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\PropertyDrawers\NavigationDrawer.cs" />
   </ItemGroup>
@@ -681,15 +681,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{9D02B7A5-44CC-D669-A7FE-E91DC7FC9F8D}</Project>
+      <Project>{904CF852-CA99-4A35-239E-7DE1BDA684F4}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{B0B8EDAB-25F4-22A5-0667-D62A9C25F7D1}</Project>
+      <Project>{9C0DE49B-CE1E-87B5-0D49-60A09B9F3051}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{CF0B9A55-721B-C1F6-7214-902FABE5DBD0}</Project>
+      <Project>{EA339A7D-C353-C636-B50A-C889A5403EBA}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

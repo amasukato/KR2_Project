@@ -24,6 +24,7 @@ public class Movement : MonoBehaviour
 
     [Header("BaseMovement")]
     public float speed = 6f;
+    public float runningspeed = 10f;
     private float gravity = -19.62f;
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
@@ -33,6 +34,7 @@ public class Movement : MonoBehaviour
     Vector3 movDir;
     Vector3 velocity;
     public bool IsGrounded;
+    public bool IsRunning;
     public bool EnabledGravity;
 
     [Header("Dodge")]
@@ -72,6 +74,9 @@ public class Movement : MonoBehaviour
 
                 break;
             case State.Running:
+                Moving();
+                Dodge();
+
                 break;
             case State.Dodging:
                 break;
@@ -80,6 +85,15 @@ public class Movement : MonoBehaviour
         }
 
         //Moving();
+
+        if (Input.GetButtonDown("Run"))
+        {
+            IsRunning = true;
+        }
+        else if (Input.GetButtonUp("Run"))
+        {
+            IsRunning = false;
+        }
 
         IsGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
@@ -116,19 +130,39 @@ public class Movement : MonoBehaviour
             transform.rotation = Quaternion.Euler(0f, angle, 0f);
 
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
+            if (IsRunning)
+            {
+                controller.Move(moveDir.normalized * runningspeed * Time.deltaTime);
+            }
+            else
+            {
+                controller.Move(moveDir.normalized * speed * Time.deltaTime);
+            }
+
         }
 
         if(horizontal == 0 && vertical == 0)
         {
             animator.SetBool("Walk", false);
+            animator.SetBool("Run", false);
             MovementState = State.Idle;
         }
         else
         {
-            animator.SetBool("Walk", true);
-            MovementState = State.Moving;
+            if(IsRunning == true)
+            {
+                animator.SetBool("Run", true);
+                MovementState = State.Running;
+            }
+            else if(IsRunning == false)
+            {
+                animator.SetBool("Walk", true);
+                MovementState = State.Moving;
+            }
         }
+
     }
 
     void Dodging()

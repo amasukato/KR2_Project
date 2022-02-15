@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D46F7138-45AE-2E71-F5B6-C1887A96AFA8}</ProjectGuid>
+    <ProjectGuid>{ADE54FC5-2D19-6D05-75F6-59ACC2E77CD2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Settings.Editor</AssemblyName>
@@ -53,17 +53,17 @@
     <UnityVersion>2020.2.2f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Library\PackageCache\com.unity.settings-manager@1.0.3\Editor\Settings.cs" />
     <Compile Include="Library\PackageCache\com.unity.settings-manager@1.0.3\Editor\UserSettingsProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.settings-manager@1.0.3\Editor\PackageSettingsRepository.cs" />
-    <Compile Include="Library\PackageCache\com.unity.settings-manager@1.0.3\Editor\UserSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.settings-manager@1.0.3\Editor\Attributes.cs" />
+    <Compile Include="Library\PackageCache\com.unity.settings-manager@1.0.3\Editor\UserSetting.cs" />
+    <Compile Include="Library\PackageCache\com.unity.settings-manager@1.0.3\Editor\SettingsDictionary.cs" />
     <Compile Include="Library\PackageCache\com.unity.settings-manager@1.0.3\Editor\UserSettingsRepository.cs" />
     <Compile Include="Library\PackageCache\com.unity.settings-manager@1.0.3\Editor\ISettingsRepository.cs" />
-    <Compile Include="Library\PackageCache\com.unity.settings-manager@1.0.3\Editor\Settings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.settings-manager@1.0.3\Editor\Attributes.cs" />
+    <Compile Include="Library\PackageCache\com.unity.settings-manager@1.0.3\Editor\UserSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.settings-manager@1.0.3\Editor\ValueWrapper.cs" />
-    <Compile Include="Library\PackageCache\com.unity.settings-manager@1.0.3\Editor\SettingsDictionary.cs" />
     <Compile Include="Library\PackageCache\com.unity.settings-manager@1.0.3\Editor\SettingsGUILayout.cs" />
-    <Compile Include="Library\PackageCache\com.unity.settings-manager@1.0.3\Editor\UserSetting.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Library\PackageCache\com.unity.settings-manager@1.0.3\Editor\Unity.Settings.Editor.asmdef" />
@@ -655,19 +655,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{9CC05774-2661-AA3C-ADC6-F1CD20E6377E}</Project>
+      <Project>{3C453562-4D43-F1B7-0CAC-AB2B00B272A8}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{9D02B7A5-44CC-D669-A7FE-E91DC7FC9F8D}</Project>
+      <Project>{904CF852-CA99-4A35-239E-7DE1BDA684F4}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{B0B8EDAB-25F4-22A5-0667-D62A9C25F7D1}</Project>
+      <Project>{9C0DE49B-CE1E-87B5-0D49-60A09B9F3051}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{CF0B9A55-721B-C1F6-7214-902FABE5DBD0}</Project>
+      <Project>{EA339A7D-C353-C636-B50A-C889A5403EBA}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

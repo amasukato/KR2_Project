@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AB12EC8A-C10F-177C-4F16-38F0170D2E3A}</ProjectGuid>
+    <ProjectGuid>{41109C66-A851-DC67-35C1-C27845B2F2A9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.ProBuilder.Stl</AssemblyName>
@@ -54,9 +54,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\External\StlExporter\Code\pb_Stl.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\External\StlExporter\Code\pb_Stl_Importer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\External\StlExporter\Code\pb_Stl_Exporter.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\External\StlExporter\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\External\StlExporter\Code\pb_Stl_Exporter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@4.4.0\External\StlExporter\Code\pb_Stl_Importer.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Library\PackageCache\com.unity.probuilder@4.4.0\External\StlExporter\Unity.ProBuilder.Stl.asmdef" />
@@ -606,7 +606,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{9D02B7A5-44CC-D669-A7FE-E91DC7FC9F8D}</Project>
+      <Project>{904CF852-CA99-4A35-239E-7DE1BDA684F4}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>
