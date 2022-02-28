@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1526; Version 2009; 64bit' Language: 'fr' Physical Memory: 16257 MB
+OS: 'Windows 10 Pro; OS build 19043.1526; Version 2009; 64bit' Language: 'fr' Physical Memory: 32716 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,45 +11,409 @@ C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/KRKR_Project/KR2_Project/KR2
+D:/UNITYHUB/KR2_Project/KR2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55115
-Successfully changed project path to: D:/KRKR_Project/KR2_Project/KR2
-D:/KRKR_Project/KR2_Project/KR2
+64701
+Successfully changed project path to: D:/UNITYHUB/KR2_Project/KR2
+D:/UNITYHUB/KR2_Project/KR2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 1620.82 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 44.11 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/KRKR_Project/KR2_Project/KR2/Assets
+[Subsystems] Discovering subsystems at path D:/UNITYHUB/KR2_Project/KR2/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
     Vendor:   
-    VRAM:     2987 MB
-    Driver:   24.21.13.9901
+    VRAM:     8011 MB
+    Driver:   27.21.14.5751
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.233875 seconds.
+Registered in 0.001730 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 88.56 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 47.11 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.900 seconds
+- Completed reload, in  0.853 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.135467 seconds.
+Registered in 0.000826 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 46.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.934 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2915 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.3 MB.
+System memory in use after: 134.2 MB.
+
+Unloading 151 unused Assets to reduce memory usage. Loaded Objects now: 3328.
+Total: 3.249700 ms (FindLiveObjects: 0.346100 ms CreateObjectMapping: 0.072800 ms MarkObjects: 2.057700 ms  DeleteObjects: 0.772000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/ExampleAssets/Models
+  artifactKey: Guid(aa97895f3852bd44399ef0893bec4f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models using Guid(aa97895f3852bd44399ef0893bec4f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b484c4265124d934ae960633f98eab5a') in 0.009885 seconds
+  Import took 0.041360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.078544 seconds.
+  path: Assets/ExampleAssets/Models/Robot.V1
+  artifactKey: Guid(aa20cc5b59368da4389bed0243675593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Robot.V1 using Guid(aa20cc5b59368da4389bed0243675593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b19ffe42b91a9628a0cd694025c516') in 0.005499 seconds
+  Import took 0.019086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.671373 seconds.
+  path: Assets/ExampleAssets/Models/Robot.V1/Idle (2).fbx
+  artifactKey: Guid(d2c9389f94e5b46449f9eb36c7069641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Robot.V1/Idle (2).fbx using Guid(d2c9389f94e5b46449f9eb36c7069641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa25b1ffa46d383468e94ef1cc442aed') in 0.271071 seconds
+  Import took 0.291071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 152.908037 seconds.
+  path: Assets/3D/Asuka_Animation/Asuka.controller
+  artifactKey: Guid(8d1c1c2900c8d3a4c83ef8893d43304e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Asuka_Animation/Asuka.controller using Guid(8d1c1c2900c8d3a4c83ef8893d43304e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc69eb124d5d265c8e127f04aa18217f') in 0.132486 seconds
+  Import took 0.138792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.425654 seconds.
+  path: Assets/3D/Asuka_Animation/Asuka 1.controller
+  artifactKey: Guid(3e0cc3eb6641218469c5479dad3cfcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Asuka_Animation/Asuka 1.controller using Guid(3e0cc3eb6641218469c5479dad3cfcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2d9e44695b4601d1d6d9829f021a58') in 0.127773 seconds
+  Import took 0.149098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.883866 seconds.
+  path: Assets/3D/Asuka_Animation/Robot.V1.controller
+  artifactKey: Guid(3e0cc3eb6641218469c5479dad3cfcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Asuka_Animation/Robot.V1.controller using Guid(3e0cc3eb6641218469c5479dad3cfcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5040a6c4ba2381e6265b8944c4f8f52') in 0.123980 seconds
+  Import took 0.137255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.121772 seconds.
+  path: Assets/3D/Asuka_Animation/Idle.anim
+  artifactKey: Guid(e0f7571ea8806b6429093df9e955c46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Asuka_Animation/Idle.anim using Guid(e0f7571ea8806b6429093df9e955c46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837a95a7ed1692aa952b602c0c65744b') in 0.052477 seconds
+  Import took 0.057880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.786681 seconds.
+  path: Assets/3D/Asuka_Animation
+  artifactKey: Guid(960135738432bf545836e1405c38f4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Asuka_Animation using Guid(960135738432bf545836e1405c38f4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca520ff583219a98791d692a1245ef34') in 0.005059 seconds
+  Import took 0.035447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.674415 seconds.
+  path: Assets/3D
+  artifactKey: Guid(c6ff4dc176ee2fd438d19d45648d82c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D using Guid(c6ff4dc176ee2fd438d19d45648d82c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad199654614c79036cfc7ce3f97de33a') in 0.020226 seconds
+  Import took 0.025203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.052291 seconds.
+  path: Assets/3D/Asuka.fbx
+  artifactKey: Guid(8f6a6aee9b7aa9d409aedd678933ba01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Asuka.fbx using Guid(8f6a6aee9b7aa9d409aedd678933ba01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f421ec8f941500f4d331434fb428b1dd') in 0.050123 seconds
+  Import took 0.055556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.333206 seconds.
+  path: Assets/3D/3d_asuka_v3.fbx
+  artifactKey: Guid(4cca8f20ac775ed4c89243f588e295fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/3d_asuka_v3.fbx using Guid(4cca8f20ac775ed4c89243f588e295fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd100a2a4f0308480bf303643f6317b09') in 0.028532 seconds
+  Import took 0.033132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.640319 seconds.
+  path: Assets/3D/Robot.V1/mixamo.com.anim
+  artifactKey: Guid(f10a3c690e4647748855548a3ce2a953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Robot.V1/mixamo.com.anim using Guid(f10a3c690e4647748855548a3ce2a953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658c7bd3d6fc6d29987b39496e0d642c') in 0.007927 seconds
+  Import took 0.026592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.503498 seconds.
+  path: Assets/3D/Robot.V1/Robot.V1.Animation
+  artifactKey: Guid(af50b803566e2b943b391506da6a201c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Robot.V1/Robot.V1.Animation using Guid(af50b803566e2b943b391506da6a201c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53ffe25553bd4090ea2ce61b7ac51dc') in 0.006160 seconds
+  Import took 0.011335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.403489 seconds.
+  path: Assets/3D/Robot.V1/idle.anim
+  artifactKey: Guid(f10a3c690e4647748855548a3ce2a953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Robot.V1/idle.anim using Guid(f10a3c690e4647748855548a3ce2a953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8b595a188227b37476b7fb1c08bfda') in 0.008439 seconds
+  Import took 0.013653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.669831 seconds.
+  path: Assets/3D/Robot.V1/Robot.V1.Animation/R.idle.anim
+  artifactKey: Guid(f10a3c690e4647748855548a3ce2a953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Robot.V1/Robot.V1.Animation/R.idle.anim using Guid(f10a3c690e4647748855548a3ce2a953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c246b9ddbc17b048f3f9e55d5b052df7') in 0.007694 seconds
+  Import took 0.012771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 124.547997 seconds.
+  path: Assets/3D/Robot.V1/Robot.V1.Animation/Walking.fbx
+  artifactKey: Guid(79823ff15d8da2f468cf3d8bdd5717eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Robot.V1/Robot.V1.Animation/Walking.fbx using Guid(79823ff15d8da2f468cf3d8bdd5717eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34ab475bbe5f3b021b7a102a46839fa') in 0.129756 seconds
+  Import took 0.135012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.313638 seconds.
+  path: Assets/3D/Robot.V1/Robot.V1.Animation/mixamo.com.anim
+  artifactKey: Guid(333c68a2d4c4db842aa15f9a380d37d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Robot.V1/Robot.V1.Animation/mixamo.com.anim using Guid(333c68a2d4c4db842aa15f9a380d37d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f705c32196d26769b55566129f85dcd6') in 0.006563 seconds
+  Import took 0.011268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.218036 seconds.
+  path: Assets/3D/Robot.V1/Robot.V1.Animation/R.Walk.anim
+  artifactKey: Guid(333c68a2d4c4db842aa15f9a380d37d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Robot.V1/Robot.V1.Animation/R.Walk.anim using Guid(333c68a2d4c4db842aa15f9a380d37d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45bfbbe5810bee970c52e3fe1be83882') in 0.009535 seconds
+  Import took 0.014257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.810511 seconds.
+  path: Assets/3D/Robot.V1/Robot.V1.Animation/R.walk.anim
+  artifactKey: Guid(333c68a2d4c4db842aa15f9a380d37d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Robot.V1/Robot.V1.Animation/R.walk.anim using Guid(333c68a2d4c4db842aa15f9a380d37d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9857d42f4cb3d4b8855f439d1d62ed') in 0.009570 seconds
+  Import took 0.014285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 214.682534 seconds.
+  path: Assets/3D/Robot.V1/Robot.V1.Animation/Running (1).fbx
+  artifactKey: Guid(c9dd18a04eda70e4abc896fbdbd05e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Robot.V1/Robot.V1.Animation/Running (1).fbx using Guid(c9dd18a04eda70e4abc896fbdbd05e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e232587a7cea3cbededd5695b169c71e') in 0.035300 seconds
+  Import took 0.040537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.682635 seconds.
+  path: Assets/3D/Robot.V1/Robot.V1.Animation/mixamo.com.anim
+  artifactKey: Guid(801927ae7ad9a5c48989cc09077ee0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Robot.V1/Robot.V1.Animation/mixamo.com.anim using Guid(801927ae7ad9a5c48989cc09077ee0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bcd02fc8975b67c1870833e8c29836') in 0.006609 seconds
+  Import took 0.011723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001180 seconds.
+  path: Assets/3D/Robot.V1/Robot.V1.Animation/mixamo.com.anim
+  artifactKey: Guid(801927ae7ad9a5c48989cc09077ee0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Robot.V1/Robot.V1.Animation/mixamo.com.anim using Guid(801927ae7ad9a5c48989cc09077ee0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bcd02fc8975b67c1870833e8c29836') in 0.006286 seconds
+  Import took 0.011159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.392778 seconds.
+  path: Assets/3D/Robot.V1/Robot.V1.Animation/R.running.anim
+  artifactKey: Guid(801927ae7ad9a5c48989cc09077ee0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Robot.V1/Robot.V1.Animation/R.running.anim using Guid(801927ae7ad9a5c48989cc09077ee0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cac1900f910de11ee5e9c1d0cd76fbd') in 0.009847 seconds
+  Import took 0.014757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 156.952056 seconds.
+  path: Assets/3D/Robot.V1/Robot.V1.Animation/Jumping.fbx
+  artifactKey: Guid(39b940749abcc5342b66bff9c6e3457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Robot.V1/Robot.V1.Animation/Jumping.fbx using Guid(39b940749abcc5342b66bff9c6e3457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b46ee47543fad71424a3e585e088189') in 0.037339 seconds
+  Import took 0.042876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.052827 seconds.
+  path: Assets/3D/Robot.V1/Robot.V1.Animation/mixamo.com.anim
+  artifactKey: Guid(23a07fef320d51043acd42740c6c9ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Robot.V1/Robot.V1.Animation/mixamo.com.anim using Guid(23a07fef320d51043acd42740c6c9ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b9b4221c4de43149db26f49775e58a') in 0.009625 seconds
+  Import took 0.014570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006133 seconds.
+  path: Assets/3D/Robot.V1/Robot.V1.Animation/mixamo.com.anim
+  artifactKey: Guid(23a07fef320d51043acd42740c6c9ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Robot.V1/Robot.V1.Animation/mixamo.com.anim using Guid(23a07fef320d51043acd42740c6c9ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b9b4221c4de43149db26f49775e58a') in 0.009527 seconds
+  Import took 0.014193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.878835 seconds.
+  path: Assets/3D/Robot.V1/Robot.V1.Animation/R.jumping.anim
+  artifactKey: Guid(23a07fef320d51043acd42740c6c9ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Robot.V1/Robot.V1.Animation/R.jumping.anim using Guid(23a07fef320d51043acd42740c6c9ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94da021d61b959557d2f26ac187e6db1') in 0.012621 seconds
+  Import took 0.017609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.069760 seconds.
+  path: Assets/3D/Robot.V1/Robot.V1.fbx
+  artifactKey: Guid(d2c9389f94e5b46449f9eb36c7069641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Robot.V1/Robot.V1.fbx using Guid(d2c9389f94e5b46449f9eb36c7069641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab9e854f21fbfb8d461090d78ea2645') in 0.035683 seconds
+  Import took 0.040575 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001182 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/KRKR_Project/KR2_Project/KR2/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/KRKR_Project/KR2_Project/KR2/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/KRKR_Project/KR2_Project/KR2/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.816 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.4 MB.
+System memory in use after: 145.3 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3412.
+Total: 3.250000 ms (FindLiveObjects: 0.394600 ms CreateObjectMapping: 0.078500 ms MarkObjects: 2.089100 ms  DeleteObjects: 0.685900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001157 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/KRKR_Project/KR2_Project/KR2/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/KRKR_Project/KR2_Project/KR2/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/KRKR_Project/KR2_Project/KR2/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.791 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.4 MB.
+System memory in use after: 145.4 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3414.
+Total: 3.442300 ms (FindLiveObjects: 0.458900 ms CreateObjectMapping: 0.077600 ms MarkObjects: 2.128000 ms  DeleteObjects: 0.777000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1590.874978 seconds.
+  path: Assets/3D/Robot.V1/Robot.V1.fbx
+  artifactKey: Guid(d2c9389f94e5b46449f9eb36c7069641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Robot.V1/Robot.V1.fbx using Guid(d2c9389f94e5b46449f9eb36c7069641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cfbbc3fc5eba95ad8b087781940fad0') in 0.165271 seconds
+  Import took 0.170955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.854883 seconds.
+  path: Assets/3D/Robot.V1/Robot.V1.fbx
+  artifactKey: Guid(d2c9389f94e5b46449f9eb36c7069641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Robot.V1/Robot.V1.fbx using Guid(d2c9389f94e5b46449f9eb36c7069641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ded1a5003d42680c3c5546b58f1734a') in 0.042553 seconds
+  Import took 0.047817 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001052 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/KRKR_Project/KR2_Project/KR2/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/KRKR_Project/KR2_Project/KR2/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/KRKR_Project/KR2_Project/KR2/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.796 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.6 MB.
+System memory in use after: 145.5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3452.
+Total: 3.606600 ms (FindLiveObjects: 0.336000 ms CreateObjectMapping: 0.073300 ms MarkObjects: 2.328600 ms  DeleteObjects: 0.867700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
